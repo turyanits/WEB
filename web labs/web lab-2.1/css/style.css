@@ -1,0 +1,40 @@
+
+body {
+    color: rgb(49, 29, 114);
+    font-weight: normal;
+    }
+
+    h1, h2{
+    color: #49064a;
+    margin-left: 45%;
+    margin-right: 43%;
+    }
+
+    p {
+    color: rgb(6, 47, 81);
+    margin: 20px auto 35px;
+font: bold 20px/1.4 Arial, sans-serif;
+    }
+
+    h3 {
+        margin-left: 46%;
+        margin-right: 50%;
+        color:darkmagenta;
+        font-weight: bold;
+    }
+
+html {
+    background: url(https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png);
+    background-repeat: no-repeat top center;
+    background-color: rgb(186, 102, 116);
+    background-size: 2000px 1000px;
+}
+
+image {
+    float: right;
+    margin: 5px 5px 5px 0;
+}   
+
+footer {
+    background: url(https://pcvector.net/uploads/posts/2018-02/1517572511_bg-svg-gradient-min.png) no-repeat bottom left;
+}

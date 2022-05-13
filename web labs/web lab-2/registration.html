@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+<body bgcolor="pink"></body>
+<form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Регістрація акаунту</h1>
+      <hr>
+       <label for="name" class="name"><b>Ваш нікнейм</b></label>
+       <input type="text" placeholder="Ваш нікнейм" name="nickname" required>
+  <br> <br>
+      <label for="email"><b>Електрона пошта</b></label>
+      <input type="text" placeholder="Ваша пошта" name="email" required>
+  <br> <br>
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Ваш пароль" name="psw" required>
+  <br> <br>
+      <label for="psw-repeat"><b>Повторити пароль</b></label>
+      <input type="password" placeholder="Підтвердження паролю" name="psw-repeat" required>
+  <br> <br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Чоловік
+      </label>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Жінка
+      </label>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Воно
+      </label>
+      <br> <br>
+      <p>Натиская галочку, ви погоджуєтесь з умовами використання сайту. <a href="#">Terms & Privacy</a></p>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> 
+      </label>
+<br> <br>
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Скасувати</button>
+        <button type="submit" class="signupbtn"><a href="WEB LAB-2.html" class="moveto">Зареєструватися</a></button>
+      </div>
+    </div>
+  </form>
