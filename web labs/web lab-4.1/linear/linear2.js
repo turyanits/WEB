@@ -1,0 +1,8 @@
+let price1 = parseInt(prompt("Ціна: ", ""))
+let quantity1 = parseInt(prompt("Кількість: ", ""))
+let price2 = parseInt(prompt("Ціна: ", ""))
+let quantity2 = parseInt(prompt("Кількість: ", ""))
+alert(`Ціна за одну штуку: ${price1}`)
+alert(`Ціна за усе: ${price1 * quantity1}`)
+alert(`Ціна за одну штуку: ${price2}`)
+alert(`Ціна за усе: ${price2 * quantity2}`)
