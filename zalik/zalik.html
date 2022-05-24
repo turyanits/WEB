@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <title>Викладачі</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <body bgcolor="pink"></body>
+    <script>
+        function display() {
+            var name = document.getElementById('name').value;
+            var posada = document.getElementById('posada').value;
+            var zvannya = document.getElementById('zvannya').value;
+            var kafedra = document.getElementById('kafedra').value;
+            alert(name + posada + zvannya + kafedra)
+        }
+
+        document.getElementById('say').addEventListener('click', say_hi);
+    </script>
+    <form action="action_page" style="border:1px solid #ccc">
+        <div class="form">
+            <h1>Викладачі</h1>
+            <hr>
+            <label for="name" class="name"><b>ПІБ викладача</b></label>
+            <input type="text" placeholder="ПІБ викладача" name="name" required>
+            <br> <br>
+            <label for="zvannya"><b>Вченне звання</b></label>
+            <input type="text" placeholder="Вчене звання" name="zvannya" required>
+            <br> <br>
+            <label for="posada"><b>Посада</b></label>
+            <input type="text" placeholder="Посада" name="posada" required>
+            <br> <br>
+            <label for="kafedra"><b>Кафедра</b></label>
+            <input type="text" placeholder="Кафедра викладача" name="kafedra" required>
+            <br> <br>
+            <label for="photo"><b>Фото</b></label>
+            <input type="text" placeholder="Посилання на фото" name="photo" required>
+            <br> <br>
+        </div>
+        <label></label>
+        </label>
+        <br> <br>
+        </body>
+        <footer>
+            <div class="button">
+                <input name="reset" type="reset" value="Почистити поля" />
+                <INPUT TYPE="button" VALUE="Готово" onClick="display();">
+            </div>
+        </footer>
+        </div>
+    </form>

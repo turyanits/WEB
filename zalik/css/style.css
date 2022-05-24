@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-right: 100;
+    border: 4px double black;
+    background: rgb(255, 152, 191);
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
